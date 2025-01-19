@@ -31,13 +31,13 @@ df = pd.read_excel("C://Users//Administrator//Downloads//SuperStoreUS-2015.xlsx"
 label =tk.Label(window,text="Customer id: ")
 entry =tk.Entry(window)
 button =tk.Button(window,text="Click here",command=fetch_details)
-label2 =tk.Label(window,text="Here.")
-label3 =tk.Label(window,text="Here.")
-label4 =tk.Label(window,text="Here.")
-label5 =tk.Label(window,text="Here.")
-label6 =tk.Label(window,text="Here.")
-label7 =tk.Label(window,text="Here.")
-label8 =tk.Label(window,text="Here.")
+label2 =tk.Label(window,text="Customer ID")
+label3 =tk.Label(window,text="Unit Price")
+label4 =tk.Label(window,text="Discount")
+label5 =tk.Label(window,text="Shipping Cost")
+label6 =tk.Label(window,text="Quandity")
+label7 =tk.Label(window,text="Customer Name")
+label8 =tk.Label(window,text="Product")
 
 
 
